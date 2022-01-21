@@ -1,0 +1,35 @@
+{
+  "name": "lerna-lcov-aggregate-action",
+  "version": "1.0.0",
+  "description": "GitHub action that aggregates multiple LCOV results into one in Lerna monorepo.",
+  "main": "index.js",
+  "author": "Rauli Laine <rauli.laine@iki.fi>",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "monorepo",
+    "coverage",
+    "lerna",
+    "lcov",
+    "github-action"
+  ],
+  "engines": {
+    "node": ">=12.0"
+  },
+  "homepage": "https://github.com/RauliL/lerna-lcov-aggregate-action",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RauliL/lerna-lcov-aggregate-action.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RauliL/lerna-lcov-aggregate-action/issues"
+  },
+  "files": [
+    "action.yml",
+    "index.js"
+  ],
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "lerna-lcov-aggregate": "^1.0.0"
+  }
+}

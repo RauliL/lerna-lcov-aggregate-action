@@ -1,0 +1,8 @@
+name: 'Aggregate LCOV results'
+description: 'Aggregates multiple LCOV results into one in Lerna monorepo'
+branding:
+  color: 'blue'
+  icon: 'git-merge'
+runs:
+  using: 'node16'
+  main: 'index.js'
