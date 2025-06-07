@@ -1,5 +1,7 @@
 # LCOV code coverage aggregator for Lerna monorepos GitHub action
 
+**NOTE**: This has been replaced with [workspace-lcov-aggregate-action].
+
 [GitHub action] which executes [lerna-lcov-aggregate].
 
 [GitHub action]: https://docs.github.com/en/actions
@@ -11,6 +13,7 @@ This example runs `npm run test:coverage` at the root of [Lerna] monorepo, then
 aggregates LCOV results from all packages into single file and finally pushes
 the result into [Coveralls].
 
+[workspace-lcov-aggregate-action]: https://github.com/RauliL/workspace-lcov-aggregate-action
 [Lerna]: https://lerna.js.org
 [Coveralls]: https://coveralls.io
 
